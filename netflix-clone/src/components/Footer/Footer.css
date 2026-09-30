@@ -1,0 +1,36 @@
+.Footer_outer_container {
+  background-color: #111;
+  color: #737373;
+  padding: 20px 15%;
+}
+
+.Footer_icons {
+  display: flex;
+  gap: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer_data ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer_data li {
+  margin: 8px 0;
+  font-size: 11px;
+}
+
+.service_code p {
+  border: 1px solid #737373;
+  padding: 5px;
+  width: 70px;
+  font-size: 10px;
+}
+
+.copy_write {
+  font-size: 9px;
+}
