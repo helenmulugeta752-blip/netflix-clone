@@ -1,0 +1,36 @@
+.header_outer_container {
+  background-color: #111;
+  height: 65px;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 60px;
+}
+
+.headee_left ul,
+.header_right ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.headee_left li {
+  color: white;
+  font-size: 12px;
+  margin-right: 25px;
+}
+
+.headee_left img {
+  width: 65px;
+}
+
+.header_right li {
+  color: white;
+  margin-left: 15px;
+}
